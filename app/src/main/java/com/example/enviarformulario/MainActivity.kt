@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         var asunto = etAsunto.text
         var mensaje = etMensaje.text
 
+
         boton.setOnClickListener {
             val intentEmail = Intent(Intent.ACTION_SEND)
             intentEmail.type = "plain/text"
